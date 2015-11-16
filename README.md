@@ -1,9 +1,9 @@
-* SQL dummy test
+# SQL dummy test
 
 Database schema and sample data is in sql directory.
 
 
-** Task 1
+## Task 1
 
 Query all humans and corresponding comma-separated vacation destinations.
 
@@ -12,7 +12,7 @@ Output columns: name, destinations.
 Query: query01.sql
 
 
-** Task 2
+## Task 2
 
 Query humans who have both Cuba and Sochi among their vacation destinations.
 
@@ -21,7 +21,7 @@ Output columns: name.
 Query: query02.sql
 
 
-** Task 3
+## Task 3
 
 Query humans who only have Cuba and Sochi among their vacation destinations.
 
@@ -29,19 +29,19 @@ Output columns: name.
 
 Query: query03.sql
 
-* PHP dummy test
+# PHP dummy test
 
 
-** Task 1
+## Task 1
 
 Implement a simple CLI script which takes a sting as an input, reverses it, strips vowels and outputs to stdout.
 
-*** Example
+### Example
 
 Input: Hello world!
 Output: !dlrw llH
 
-*** Answer
+### Answer
 
 ```bash
 
@@ -51,12 +51,12 @@ $ ./bin/mirror.php Hello world!
 
 ```
 
-** Task 2
+## Task 2
 
 Cover class/function from previous task with PHPUnit tests.
 
 
-*** Answer
+### Answer
 
 ```bash
 
